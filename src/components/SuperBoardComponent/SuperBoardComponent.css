@@ -1,0 +1,36 @@
+.superBoard {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 1000px;
+    height: 1000px;
+    margin: 20px;
+}
+
+.localGame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+
+    &:hover {
+        background-color: #e0e0e0;
+    }
+}
+

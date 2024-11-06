@@ -1,0 +1,92 @@
+#superOuter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+}
+
+#super {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #282c34;
+    gap: 50px;
+    margin: 20px auto;
+}
+
+.superPlayer {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    width: 300px;
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+#superStats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 600px;
+}
+
+#superStats h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+#superStats p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+#superRestartButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#superRestartButton button {
+    background-color: #61dafb;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.superPlayer {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    width: 25%;
+    border: white 2px solid;
+}
+
+#sO {
+    background-color: white;
+    color: black;
+}
+
+#sX {
+    background-color: green;
+    color: white;
+}
+
