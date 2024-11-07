@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Title Component Styling */
+#titleComponent {
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Navbar Styling */
+#navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    list-style: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#navBar li {
+    margin: 0 15px;
+}
+
+/* Link Styling */
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ffa500; /* Orange color on hover */
+}
+
+/* Main Component Styling */
+.mainComponent {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Super Component Styling */
+.superComponent {
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #navBar {
+        flex-direction: column;
+    }
+
+    #navBar li {
+        margin: 10px 0;
+    }
+}
